@@ -1,12 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  // Vercelでは output: 'export' は不要
   trailingSlash: true,
   images: {
     unoptimized: true
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/omikuji-nextjs' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/omikuji-nextjs/' : '',
+  // Vercelでは basePath と assetPrefix は不要
 }
 
 module.exports = nextConfig
