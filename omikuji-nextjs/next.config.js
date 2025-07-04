@@ -1,11 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Vercelでは output: 'export' は不要
+  // GitHub Pages用に静的エクスポートを有効化
+  output: 'export',
   trailingSlash: true,
   images: {
     unoptimized: true
   },
-  // Vercelでは basePath と assetPrefix は不要
+  // GitHub Pages用の設定（必要に応じて変更）
+  // basePath: '/yuki-tanizawa-0702',
+  // assetPrefix: '/yuki-tanizawa-0702',
 }
 
 module.exports = nextConfig
