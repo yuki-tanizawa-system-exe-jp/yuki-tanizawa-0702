@@ -6,9 +6,9 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  // GitHub Pages用の設定（必要に応じて変更）
-  // basePath: '/yuki-tanizawa-0702',
-  // assetPrefix: '/yuki-tanizawa-0702',
+  // GitHub Pages用の設定
+  basePath: '/yuki-tanizawa-0702',
+  assetPrefix: '/yuki-tanizawa-0702',
 }
 
 module.exports = nextConfig
